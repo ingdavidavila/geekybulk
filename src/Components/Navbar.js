@@ -20,43 +20,43 @@ function NavbarscrollExample() {
             >
               
               <NavDropdown title="Magic The Gathering" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item> */}
                 <NavDropdown.Item href="#one">
                   Singles
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="#contact">
                   Sell Us Your Cards
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Pokemon" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item> */}
                 <NavDropdown.Item href="#two">
                   Singles
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="#contact">
                   Sell Us Your Cards
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Yu-Gi-Oh" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
+                {/* <NavDropdown.Item href="#action3">Sealed Product</NavDropdown.Item> */}
+                <NavDropdown.Item href="#three">
                   Singles
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="#contact">
                   Sell Us Your Cards
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/about" >
+              <Nav.Link href="#about" >
                 About us
               </Nav.Link>
-              <Nav.Link href="/contact" >
+              <Nav.Link href="#contact" >
                 Contact
               </Nav.Link>
             </Nav>
-            <Form className="d-flex">
+            {/* <Form className="d-flex">
               <Form.Control
                 type="search"
                 placeholder="Search"
@@ -64,7 +64,7 @@ function NavbarscrollExample() {
                 aria-label="Search"
               />
               <Button variant="outline-success">Search</Button>
-            </Form>
+            </Form> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
