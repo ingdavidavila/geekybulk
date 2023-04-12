@@ -9,6 +9,10 @@
     position: absolute;
   }
 
+a + a {
+    margin-left: 10px;
+}  
+
 p {
     justify-content: center;
 }
@@ -42,24 +46,26 @@ p {
     color: orangered;
 }
 
-#contact {
+.contact {
+    justify-content: center;
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
     text-align: center;
     font-weight: bolder;
-    color: black;
+    color: white;
+    font-size: 5rem;
 }
 
 
-#about {
+.about {
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
     text-align: center;
     font-weight: bolder;
-    color: black;
-
+    color: white;
+    font-size: 2rem;
 }
 
 footer {
@@ -109,8 +115,8 @@ footer {
 }
 
 .poke div:nth-child(5){
-    top: 27%;
-    left: 70%;
+    top: 50%;
+    left: 10%;
     animation: animate 12s linear infinite;
 }
 
@@ -134,7 +140,7 @@ footer {
 }
 
 .poke div:nth-child(9){
-    top: 20%;
+    top: 120%;
     left: 25%;
     animation: animate 10s linear infinite;
 }
@@ -143,6 +149,24 @@ footer {
     top: 65%;
     left: 40%;
     animation: animate 7s linear infinite;
+}
+
+.poke div:nth-child(11){
+    top: 85%;
+    left: 40%;
+    animation: animate 7s linear infinite;
+}
+
+.poke div:nth-child(12){
+    top: 95%;
+    left: 40%;
+    animation: animate 12s linear infinite;
+}
+
+.poke div:nth-child(13){
+    top: 90%;
+    left: 20%;
+    animation: animate 12s linear infinite;
 }
 
 @keyframes animate{
