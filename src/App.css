@@ -1,5 +1,7 @@
 .App{
-    background: linear-gradient(90deg, rgba(20,3,.6,1) 0%, rgba(9,9,121,1)35%), rgba(0,212,255,1) 100%;
+    background: linear-gradient(180deg, rgba(20,3,.6,1) 0%, rgb(66, 66, 192) 25%), rgb(53, 94, 102) 100%;
+    background-image: url(./Backgorund.png);
+    background-size: cover;
     height: 100%;
     width: 100%;
     overflow: scroll;
