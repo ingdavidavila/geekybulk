@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/geekybulk/static/css/main.48aedd3b.css",
+    "main.js": "/geekybulk/static/js/main.b7e2cc9b.js",
+    "static/js/787.c684bd4c.chunk.js": "/geekybulk/static/js/787.c684bd4c.chunk.js",
+    "static/media/Backgorund.png": "/geekybulk/static/media/Backgorund.281f6edeafbe24e34603.png",
+    "index.html": "/geekybulk/index.html",
+    "main.48aedd3b.css.map": "/geekybulk/static/css/main.48aedd3b.css.map",
+    "main.b7e2cc9b.js.map": "/geekybulk/static/js/main.b7e2cc9b.js.map",
+    "787.c684bd4c.chunk.js.map": "/geekybulk/static/js/787.c684bd4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48aedd3b.css",
+    "static/js/main.b7e2cc9b.js"
+  ]
+}
