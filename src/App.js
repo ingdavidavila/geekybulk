@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import NavScrollExample from "../src/Components/Navbar";
+import Mana from "./pics/mana.png"
+import Charm from "./pics/charm.png"
+import Mpuzzle from "./pics/mpuzzle.png"
 
 
 function App(){
@@ -9,19 +12,19 @@ function App(){
             <NavScrollExample />
             <div className='wrapper'>
                 <div className='poke'>
-                    <div><img src='./mpuzzle.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mana.png' alt="poke" className='pok'/></div>
-                    <div><img src='./charm.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mpuzzle.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mana.png' alt="poke" className='pok'/></div>
-                    <div><img src='./charm.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mpuzzle.png' alt="poke" className='pok'/></div>
-                    <div><img src='./charm.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mpuzzle.png' alt="poke" className='pok'/></div>
-                    <div><img src='./charm.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mpuzzle.png' alt="poke" className='pok'/></div>
-                    <div><img src='./mana.png' alt="poke" className='pok'/></div>
-                    <div><img src='./charm.png' alt="poke" className='pok'/></div>
+                    <div><img src={Mana} alt="poke" className='pok'/></div>
+                    <div><img src={Mana} alt="poke" className='pok'/></div>
+                    <div><img src={Charm} alt="poke" className='pok'/></div>
+                    <div><img src={Mpuzzle} alt="poke" className='pok'/></div>
+                    <div><img src={Mana} alt="poke" className='pok'/></div>
+                    <div><img src={Charm} alt="poke" className='pok'/></div>
+                    <div><img src={Mpuzzle} alt="poke" className='pok'/></div>
+                    <div><img src={Charm} alt="poke" className='pok'/></div>
+                    <div><img src={Mpuzzle} alt="poke" className='pok'/></div>
+                    <div><img src={Charm} alt="poke" className='pok'/></div>
+                    <div><img src={Mpuzzle} alt="poke" className='pok'/></div>
+                    <div><img src={Mana} alt="poke" className='pok'/></div>
+                    <div><img src={Charm} alt="poke" className='pok'/></div>
                 </div>
             <header className='header'>
 
@@ -127,14 +130,13 @@ function App(){
                                 </a><br/>
                             </p>
                     </div>
-                    </div>
+            </div>
                     <footer>
-                        <a>copywrite 2023</a><br />
+                        <a className='foot'>copywrite 2023</a><br />
                         Magic: The Gathering and its respective properties are copyright  Wizards of the Coast.
 Yu-Gi-Oh!  and its respective properties are © 2023 Studio Dice/SHUEISHA, TV TOKYO, KONAMI.
                     </footer>
-                </div>
-
+        </div>
     )
 }
 

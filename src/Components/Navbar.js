@@ -5,13 +5,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "../pics/GJlogo.png"
 import './Navbar.css';
 
 function NavbarscrollExample() {
     return (
       <Navbar expand='lg'>
         <Container fluid >
-          <Navbar.Brand href="/"><img src='./GJlogo.png' alt="logo" className='logo-nav'/></Navbar.Brand>
+          <Navbar.Brand href="/"><img src={logo} alt="logo" className='logo-nav'/></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

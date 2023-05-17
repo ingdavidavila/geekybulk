@@ -1,6 +1,5 @@
 .App{
     background: linear-gradient(180deg, rgba(20,3,.6,1) 0%, rgb(66, 66, 192) 25%), rgb(53, 94, 102) 100%;
-    
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -19,52 +18,54 @@ p {
 
 #one {
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
     text-align: center;
     font-weight: bolder;
-    color: orangered;
-
+    font-size: 1.5em;
+    color:  	rgb(255,255,240);
+    text-shadow: 3px 3px 5px black; 
 }
 
 
 #two {
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bolder;
-    color: orangered;
+    color:  	rgb(255,255,240);
+    text-shadow: 3px 3px 5px black; 
 }
 
 #three {
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bolder;
-    color: orangered;
+    color:  	rgb(255,255,240);
+    text-shadow: 3px 3px 5px black; 
 }
 
 .contact {
     justify-content: center;
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
     text-align: center;
     font-weight: bolder;
-    color: white;
+    color:  	rgb(255,255,240);
+    text-shadow: 3px 3px 6px black;
     font-size: 5rem;
 }
 
 
 .about {
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100vw;
     text-align: center;
     font-weight: bolder;
-    color: white;
+    color:  	rgb(255,255,240);
+    text-shadow: 3px 3px 6px black;
     font-size: 2rem;
 }
 
@@ -76,7 +77,7 @@ footer {
     width: 100vw;
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: .55em;
+    font-size: .75em;
 }
 
 .pok{
@@ -180,14 +181,19 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-    .App {
-        background-image: url('./Celbackground.png');
+@media (min-width: 481px) {
+    .App{
+        background-image: url(./pics/Backgorund.png);
     }
+   
 }
 
-@media (min-width: 1025px) {
-    .App {
-	    background-image: url(./Backgorund.png);
-   }
+@media (max-width: 480px) {
+    .App{
+        background-image: url(./pics/Celbackground.png);
+    }
+    .about{
+        width: 480px;
+    }
+
 }
